@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.banner {
+  background-color: #1cd1b0;
+  padding: 10px;
+}
+.heroes {
+  background-color: #00669f;
+  padding: 28px;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.perfil {
+  width: 300px;
+  height: 530px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  margin: 152px 0 151px 30px;
+}
+.perfil .cora {
+  position: absolute;
+  padding: 20px;
+}
+.perfil div img {
+  border-radius: 60px;
+  position: relative;
+  top: 130px;
+}
+.perfil button {
+  width: 128.78px;
+  height: 48.52px;
+  background: #00669f;
+  border: none;
+}
+.perfil p {
+  padding: 0 17px;
+}
+.batman {
+  background-image: url(../img/batman1.png);
+  background-repeat: no-repeat;
+}
+.harley {
+  background-image: url(../img/Harley1.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.headerPerfil {
+  text-align: center;
+}
+.headerPerfil h2 {
+  margin-top: 140px;
+  margin-bottom: 10px;
+}
+.btn {
+  text-align: center;
+}
+button {
+  margin-top: 37px;
+  color: #fff;
+  margin-bottom: 18.48px;
+}
+footer {
+  background-color: #00669f;
+  font-size: 16px;
+  padding: 16px;
+  color: #fff;
+}
